@@ -74,11 +74,6 @@ const unirest = require("unirest")
         Object.keys(results[i]).forEach(key => results[i][key] === "" || results[i][key] === undefined ? delete results[i][key] : {});  
         }
     
-        
-        for (let i = 0; i < results.length; i++) {
-        Object.keys(results[i]).forEach(key => results[i][key] === "" || results[i][key] === undefined ? delete results[i][key] : {});  
-        }
-    
         console.log(results)
     
     }
